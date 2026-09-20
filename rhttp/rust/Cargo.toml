@@ -54,5 +54,6 @@ codegen-units = 1
 
 [profile.dev]
 debug-assertions = false # Set to true for Trace logging during development.
+debug = "line-tables-only"
 opt-level = 3
 panic = "abort"
